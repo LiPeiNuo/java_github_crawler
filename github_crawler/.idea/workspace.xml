@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="github_crawler:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3124626b-0e31-492d-858f-1e0c82259105" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="github_crawler" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\学习必备\Tools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zmyijbxi1DfIF9d5TiVTIT7Wta" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/github_crawler_jar/github_crawler.jar" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Project\github_crawler\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\Project\github_crawler\src\main\webapp\js" />
+      <recent name="D:\Study\Project\github_crawler1" />
+      <recent name="D:\Study\Project\github_crawler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Deploy to Host.deploy servlet">
+    <configuration name="Crawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crawler.Crawler" />
+      <module name="github_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dao.ProjectDao" />
+      <module name="github_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="github_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestGson" />
+      <module name="github_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crawler.ThreadCrawler" />
+      <module name="github_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deploy  servlet" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="47.93.16.83" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/home/PeiNuo/urs/java/apache-tomcat-8.5.53/webapps " />
+      <option name="pathOrUrl" value="D:\Study\Project\github_crawler\target\java_github_crawler.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../github_crawler\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="deploy servlet " type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="47.93.16.83" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/home/PeiNuo/urs/java/apache-tomcat-8.5.53/webapps " />
+      <option name="pathOrUrl" value="D:\Study\Project\github_crawler\target\github_crawler.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../github_crawler\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="deploy servlet" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="47.93.16.83" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/home/PeiNuo/urs/java/apache-tomcat-8.5.53/webapps" />
+      <option name="pathOrUrl" value="D:\Study\Project\github_crawler\target\github_crawler.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../github_crawler\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="deploy servlet" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="47.93.16.83" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/usr/java/apache-tomcat-7.0.103/webapps " />
+      <option name="pathOrUrl" value="D:\Study\Project\github_crawler\target\github_crawler.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../github_crawler\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="deploy servlet" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host">
+      <option name="address" value="47.93.16.83" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/home/PeiNuo/urs/java/apache-tomcat-8.5.53/webapps" />
+      <option name="pathOrUrl" value="D:\Study\Project\github_crawler\target\github_crawler.war" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../github_crawler\pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProjectDao" />
+        <item itemvalue="Application.ThreadCrawler" />
+        <item itemvalue="Application.Crawler" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestGson" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3124626b-0e31-492d-858f-1e0c82259105" name="Default Changelist" comment="" />
+      <created>1585458692871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585458692871</updated>
+      <workItem from="1585458695945" duration="11373000" />
+      <workItem from="1585525207387" duration="9970000" />
+      <workItem from="1585542201538" duration="272000" />
+      <workItem from="1585542495173" duration="16421000" />
+      <workItem from="1585614434796" duration="90000" />
+      <workItem from="1585614622480" duration="11157000" />
+      <workItem from="1585644945009" duration="4070000" />
+      <workItem from="1585649060984" duration="134000" />
+      <workItem from="1585649219483" duration="2975000" />
+      <workItem from="1585665977332" duration="10450000" />
+      <workItem from="1585680015587" duration="1724000" />
+      <workItem from="1585705848249" duration="12006000" />
+      <workItem from="1585728185127" duration="12111000" />
+      <workItem from="1585788421170" duration="27259000" />
+      <workItem from="1585881443264" duration="4252000" />
+      <workItem from="1585899917941" duration="7163000" />
+      <workItem from="1585967604100" duration="13542000" />
+      <workItem from="1586045615510" duration="2089000" />
+      <workItem from="1586186315777" duration="609000" />
+      <workItem from="1586262510916" duration="12224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="351" y="0" key="#Deploy_to_Host" timestamp="1586273211237">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="351" y="0" key="#Deploy_to_Host/0.0.1280.680@0.0.1280.680" timestamp="1586273211237" />
+    <state x="233" y="0" key="#Notifications" timestamp="1585542435717">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1585542435717" />
+    <state x="233" y="0" key="#Project_Structure" timestamp="1585480821747">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1585480821747" />
+    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1585525687136">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585525687136" />
+    <state x="548" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586270437094">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="548" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1586270437094" />
+    <state x="351" y="18" key="#deploy_servlet" timestamp="1585791734919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="351" y="18" key="#deploy_servlet/0.0.1280.680@0.0.1280.680" timestamp="1585791734919" />
+    <state x="435" y="95" key="FileChooserDialogImpl" timestamp="1586270678475">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="435" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586270678475" />
+    <state width="1236" height="230" key="GridCell.Tab.0.bottom" timestamp="1586276594507">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="230" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586276594507" />
+    <state width="1236" height="230" key="GridCell.Tab.0.center" timestamp="1586276594507">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="230" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586276594507" />
+    <state width="1236" height="230" key="GridCell.Tab.0.left" timestamp="1586276594506">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="230" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586276594506" />
+    <state width="1236" height="230" key="GridCell.Tab.0.right" timestamp="1586276594507">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="230" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586276594507" />
+    <state width="1236" height="204" key="GridCell.Tab.1.bottom" timestamp="1586276594492">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586276594492" />
+    <state width="1236" height="204" key="GridCell.Tab.1.center" timestamp="1586276594492">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586276594492" />
+    <state width="1236" height="204" key="GridCell.Tab.1.left" timestamp="1586276594492">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586276594492" />
+    <state width="1236" height="204" key="GridCell.Tab.1.right" timestamp="1586276594492">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586276594492" />
+    <state x="181" y="0" width="914" height="680" key="SettingsEditor" timestamp="1586273069399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="181" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586273069399" />
+    <state x="325" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1586186316276">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586186316276" />
+    <state x="28" y="35" key="new project wizard" timestamp="1585841047467">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1585841047467" />
+    <state x="665" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585628272535">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="665" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1585628272535" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1585493938113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585493938113" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585721104816">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585721104816" />
+  </component>
+</project>
